@@ -8,8 +8,3 @@ access_control = "_"
 
 [dev-addresses]
 access_control = "0xdead"
-
-[dependencies.SupraFramework]
-git = "https://github.com/Entropy-Foundation/aptos-core.git"
-rev = "dev"
-subdir = "aptos-move/framework/supra-framework"
