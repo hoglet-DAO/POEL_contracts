@@ -12,6 +12,11 @@ dfmm_admin = "0xabc"
 
 [dev-addresses]
 
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
 [dependencies.core]
 local = "deps/supra_oracle"
 
